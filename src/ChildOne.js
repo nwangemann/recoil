@@ -16,7 +16,6 @@ export const displaySelector = selector({
     }
 });
 
-
 function ChildOne(props) {
   const [name, setName] = useRecoilState(displayText);
 
